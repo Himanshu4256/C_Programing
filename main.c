@@ -1,24 +1,18 @@
+//
+//  main.c
+//  Infinite loop using for loop
+//
+//  Created by Laxmi Narayan Sharma on 28/05/21.
+//
 
 #include <stdio.h>
 
-int main( )
+int main()
+{
+    for(;;)
     {
-        int i,j,k;
-        for(i=1;i<=5;i++)
-        {
-            for(k=1;k<i;k++)
-            printf(" ");
-            for(j=5;j>=i;j--)
-            printf("*");
-            printf("\n");
-         }
-        
-    
+        printf("Hello world");
+        printf("\n");
+    }
+    return 0;
 }
-
-
-        *
-      * *
-    * * *
-  * * * *
-* * * * *
